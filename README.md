@@ -18,10 +18,11 @@ Python 3.8+
 pip package manager
 
 Installation
-Clone and setup repository
+
+Clone and setup repository  
 
 bash
-git clone <repository-url>
+git clone https://github.com/Indrajit-Mandol/document-insight-system.git
 cd document-classifier
 Create virtual environment (recommended)
 
@@ -120,3 +121,4 @@ text
 │  │ Structured Insights             │    │
 │  └─────────────────────────────────┘    │
 └─────────────────────────────────────────┘#
+
