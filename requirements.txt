@@ -3,13 +3,10 @@ fastapi==0.104.1
 uvicorn[standard]==0.24.0
 pydantic==2.5.0
 
-# Force wheel installation for scikit-learn
---only-binary=scikit-learn,numpy
-scikit-learn==1.3.2
-numpy==1.24.3
-
 # Machine Learning & NLP
+scikit-learn>=1.5.2  # Changed to a version compatible with Python 3.13
 pandas==2.1.3
+numpy>=1.26.0        # Newer numpy version for Python 3.13 compatibility
 spacy==3.7.2
 nltk==3.8.1
 
