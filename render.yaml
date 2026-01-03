@@ -5,4 +5,4 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
     runtime: python
-    pythonVersion: 3.12.4
+    pythonVersion: 3.12.3
