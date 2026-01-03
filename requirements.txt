@@ -1,7 +1,7 @@
 # Core
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic==2.5.0
+fastapi>=0.104,<0.111
+uvicorn[standard]>=0.24,<0.30
+pydantic>=2.5,<2.8
 
 # ML & NLP (Python 3.12 compatible)
 numpy>=1.26,<2.1
